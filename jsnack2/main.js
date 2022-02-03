@@ -27,9 +27,9 @@ let listaCompilata = compilaStruttura(squadreCalcio);
 console.log(listaCompilata);
 
 
-//ciclo for per scorrere i campi desierati
+//ciclo for per scorrere i campi desiderati, e stamparli in console
 for(let i = 0; i < listaCompilata.length; i++){
-    let [{nome, falli_subiti}] = listaCompilata;
+    let {nome, falli_subiti} = listaCompilata[i];
     console.log(nome, falli_subiti);
 }
 
